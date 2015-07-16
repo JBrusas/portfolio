@@ -22,9 +22,9 @@
       
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
       <div id="main" class="container">  
-          <nav class="navbar navbar-inverse navbar-fixed">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -42,6 +42,9 @@
         <ul class="nav navbar-nav">
             <li><a href="https://twitter.com/Jazzy_Bru">Twitter <span class="sr-only">(current)</span></a></li>
             <li><a href="#">FAQ's</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Education">Education</a></li>
         </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -60,7 +63,7 @@
                 </ul>
             </div>
 
-            <div class="col-xs-6 col-md-pull-6 col-md-3"> 
+            <div class="col-xs-6 col-md-pull-6 col-md-3" id="ProfilePic"> 
                         <img src="images/IMG_6152-2.JPG" alt="A picture of myself" class="img-rounded img-responsive center-block">       
             </div>
             
@@ -69,26 +72,35 @@
             </div>
             
         </div>
-            <div id="multiColumn">
+            <section>
+            <div id="skills" class="multiColumn">
+                
                 <ul>
                     <li>Persistent</li>
                     <li>Currently Learning Tagalog</li>
                     <li>Flexible</li>
                     <li>Quick Learner</li>
                     <li>Handy with Technology</li>
+                    
                 </ul>
             </div>
+            </section>
         
-        <p> HTML projects I've Done: <a href="https://github.com/JBrusas"><img src="https://anyanydrop.com/images/easyblog_images/557/b2ap3_thumbnail_github.png"               alt="GitHubLogo"></a> </p>
-    
-            <div>
+        <section>
+        <div id="projects">
+            <h3>Projects</h3>
+        <p class="text-center"> HTML projects I've Done: <a href="https://github.com/JBrusas"><img src="https://anyanydrop.com/images/easyblog_images/557/b2ap3_thumbnail_github.png"               alt="GitHubLogo"></a><br/>We've been currently working on projects through GitHub. </p>
+            </div>
+        </section>
+        
+        <section>
+            <div id="Education">
+                <h2>Education</h2>
                 <ul>
                     <li>Grade Point Average: 3.2</li>
-                
-                
-                
                 </ul>
             </div>
+        </section>
           </div>
       </div>
         

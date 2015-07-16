@@ -1,4 +1,4 @@
-#multiColumn {
+.multiColumn {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
@@ -8,4 +8,8 @@
 }
 body {
     background-color: #CCFFFF;
+    position: relative;
+    padding-top: 50px;
 }
+#ProfilePic {
+    padding-top: 25px;
