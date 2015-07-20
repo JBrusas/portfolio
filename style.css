@@ -7,9 +7,21 @@
     column-gap: 20px;
 }
 body {
-    background-color: #CCFFFF;
+    background-color: black;
     position: relative;
     margin-top: 50px;
+    color: #657785;
+    font-family: Georgia,Times,"Times New Roman",serif;
 }
 #ProfilePic {
     padding-top: 25px;
+}
+h2  {
+    color: #00D99D;
+}
+.navbar-default {
+    background-color: #057CD8;
+}
+footer {
+    text-align: center;
+}
