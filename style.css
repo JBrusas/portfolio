@@ -1,11 +1,4 @@
-.multiColumn {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-}
+
 body {
     background-color: black;
     position: relative;
@@ -24,4 +17,21 @@ h2  {
 }
 footer {
     text-align: center;
+}
+#github {
+    padding-left: 145px;
+}
+p {
+    text-align: left;
+}
+#skills  {
+    padding-top: 25px;
+    text-align: left;
+}
+#projects {
+    padding-top: 95px;
+}
+#Education  {
+    padding-top: 95px;
+    padding-bottom: 15px;
 }
