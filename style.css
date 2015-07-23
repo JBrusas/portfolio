@@ -1,4 +1,7 @@
-
+#intro  {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 body {
     background-color: black;
     position: relative;
@@ -9,8 +12,13 @@ body {
 #ProfilePic {
     padding-top: 25px;
 }
+h1  {
+    color: #00D99D;
+}
 h2  {
     color: #00D99D;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .navbar-default {
     background-color: #057CD8;
@@ -23,15 +31,29 @@ footer {
 }
 p {
     text-align: left;
+    line-height: 2em;
+    font-size: 14px;
 }
 #skills  {
-    padding-top: 25px;
     text-align: left;
+    background-color: #1B6BA9;
+    color: #000000;
+    padding-top: 45px;
+    padding-bottom: 80px;
 }
 #projects {
-    padding-top: 95px;
+    padding-top: 80px;
+    padding-bottom: 80px
 }
 #Education  {
-    padding-top: 95px;
-    padding-bottom: 15px;
+    padding-top: 45px;
+    padding-bottom: 80px;
+    background-color: #1B6BA9;
+    color: #000000;
+}
+.centertext {
+    text-align: center;
+}
+.lists  {
+    font-size: 14px;
 }
